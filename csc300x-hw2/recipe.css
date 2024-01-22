@@ -1,3 +1,4 @@
+
 /*Pie.html css*/
 h1 {
     color: #A4A400;
@@ -12,6 +13,7 @@ h1 {
     color: #A4A400;
     background-color: #F0F0F0;
     text-align: left;
+    text-decoration: underline;
     font-family: 'Lucida Sans Unicode', 'Helvetica', 'Arial', 'sans-serif';
     font-size: 18pt;
 }
@@ -22,6 +24,11 @@ body{
     font-size: 11pt;
 }
 
+#allComments{
+    font-style: italic;
+    margin-left: 30px;
+    margin-right: 30px;
+}
 a:link {
     color:#A4A400;
 }
