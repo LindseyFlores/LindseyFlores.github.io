@@ -1,12 +1,27 @@
-
-
 /*Pie.html css*/
-h1{
-    border-style: solid;
+h1 {
     color: #A4A400;
     background-color: #F0F0F0;
     text-align: center;
     font-family: 'Lucida Sans Unicode', 'Helvetica', 'Arial', 'sans-serif';
     font-size: 22pt;
     font-weight: bold;
+}
+
+.otherheading {
+    color: #A4A400;
+    background-color: #F0F0F0;
+    text-align: left;
+    font-family: 'Lucida Sans Unicode', 'Helvetica', 'Arial', 'sans-serif';
+    font-size: 18pt;
+}
+
+body{
+    background-color: white;
+    color: #404040;
+    font-size: 11pt;
+}
+
+a:link {
+    color:#A4A400;
 }
