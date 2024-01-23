@@ -1,10 +1,21 @@
+/*index.html css*/
+
+
+
+
+
 /*Pie.html css*/
-.centered {
+#recipePage{
+    background-image: url(images/silverware.jpg);
+    color: #404040;
+    font-size: 11pt;
+}
+#centered {
     text-align: center;
     /* Center the content of the div */
 }
 
-h1 {
+#recipeHeaders{
     color: #A4A400;
     background-color: #F0F0F0;
     text-align: center;
@@ -22,12 +33,6 @@ h1 {
     text-decoration: underline;
     font-family: 'Lucida Sans Unicode', 'Helvetica', 'Arial', 'sans-serif';
     font-size: 18pt;
-}
-
-body {
-    background-image: url(images/silverware.jpg);
-    color: #404040;
-    font-size: 11pt;
 }
 
 ul {
