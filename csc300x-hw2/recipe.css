@@ -35,6 +35,7 @@ body {
     margin-top: 12.5em;
     font-size: 10pt;
 }
+
 /*Putting award image on top*/
 #parent {
     position: relative;
@@ -95,9 +96,10 @@ a:link {
     box-shadow: 5px 5px 5px antiquewhite;
     transition: transform 0.3s ease;
 }
+
 /*my image float feature when user hovers*/
-.moreEdits:hover{
-    transform: translateY(-10px); 
+.moreEdits:hover {
+    transform: translateY(-10px);
 }
 
 #morePictures {
