@@ -1,7 +1,6 @@
-/*
-index.html css
-- trying to stick with MUTED color pallate tones
-*/
+/*Lindsey Flores: This file is the recipe.css, which contains most of the style features*/
+
+/*index.html css*/
 body {
     background-color: #28282B;
 
@@ -52,8 +51,9 @@ body {
 
 .image2 {
     position: absolute;
-    top: 2px;
+    top: 5px;
     left: -5em;
+    rotate: -20deg;
 }
 
 #pieImage {
@@ -76,6 +76,8 @@ a:link {
 }
 
 #moreRecipes {
+    position: relative;
+    overflow: hidden;
     margin-top: 90px;
 }
 
@@ -91,6 +93,11 @@ a:link {
     display: flex;
     justify-content: space-evenly;
     box-shadow: 5px 5px 5px antiquewhite;
+    transition: transform 0.3s ease;
+}
+/*my image float feature when user hovers*/
+.moreEdits:hover{
+    transform: translateY(-10px); 
 }
 
 #morePictures {
@@ -100,11 +107,11 @@ a:link {
 }
 
 .homeLinks {
-    color: #f5c71a;
+    color: pink;
 }
 
 .homeLinks:hover {
-    color: pink;
+    color: #f5c71a;
 }
 
 /*Pie.html css*/
