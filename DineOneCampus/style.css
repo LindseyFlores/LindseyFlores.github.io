@@ -1,0 +1,105 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-color: #304D86;
+}
+
+#navigationBar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+#logo {
+    font-family: "Press Start 2P";
+    color: aliceblue;
+    font-size: x-large;
+}
+
+button {
+    background-color: #E0B417;
+    font-family: "Press Start 2P";
+    border-radius: 5px;
+}
+
+#introduction {
+    background-color: #304D86;
+    color: aliceblue;
+    border-style: solid;
+    font-family: "Play";
+    margin: 10px;
+    padding: 10px;
+}
+
+.yellowish {
+    width: 100%;
+    height: 500px;
+    background-color: #E0B417;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blueish {
+    width: 100%;
+    height: 500px;
+    background-color: #304D86;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imageSection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.restName {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+}
+
+.images {
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+}
+
+.articleSection {
+    border-style: solid;
+    align-self: center;
+    width: 400px;
+    height: 400px;
+    margin: 100px;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+.imageGallery{
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+
+}
+.images {
+    cursor: pointer;
+    width: 400px;
+    height:auto;
+}
+
+.images.active {
+    transform: scale(1.5);
+    /* Enlarge the active image */
+    transition: transform 0.3s ease;
+}
+
+.dishDescription {
+    display: none;
+    /* Hide descriptions initially */
+}
+
+.dishDescription.active {
+    display: block;
+    /* Show active description */
+}

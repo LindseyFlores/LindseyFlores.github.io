@@ -3,10 +3,179 @@
 
 <head>
     <title>Dine On Campus</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Play&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    The page content here.
+    <nav id="navigationBar">
+        <div id="logo"> Dine Near Campus </div>
+        <a href="bagnerAndAlexa.html"><button> B&A </button> </a>
+        <a href="don.html"><button> Don </button></a>
+        <a href="oldTown.html"><button> Old Town</button></a>
+        <a href="koreanStyle.html"><button> Korean </button></a>
+        <a href="mealPlan.html"> <button> Meal Plan </button> </a>
+    </nav>
+
+    <section id="introduction">
+        <p> Sometimes you aren’t in the mood for the UNCG caf’s food, but when it comes to dining near campus, finding the right place to spend your money can be hard decision. The last thing anyone likes is knowing you just spent $20 on a plate of disappointing food.  </p>
+        <p> So welcome to Dine Near Campus! </p>
+        <p> Here you will be presented with some of my favorite spots to eat at near UNCG, all of which are affordable and consist of great food. Ive curated a meal plan that allows you too see some of the top dishes at each establishment and give you an estimate cost of what you will be spending by eating there.</p>
+    </section>
+
+    <!--Bagner and Alexa-->
+    <section class = "yellowish">
+        <div class="imageSection">
+        <h1 class="restName">Bagner and Alexa</h1>  
+        <img src ="images/BagnerAndAlexa.jpg" class="images">
+        </div>
+        <article class="articleSection">
+            <p>LOCATION: </p>
+            <p>HOURS: </p>
+              <!--unmarked List-->
+            <p>Specialties: </p>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias perferendis eligendi molestias cum vero fugiat nostrum ullam numquam obcaecati, inventore provident ipsa accusantium omnis iste minus et est, voluptas ipsum.</p>
+            <p>Photo creds: Google Maps by Bagner And Alexa</p>
+        </article>
+    </section>
+
+    <!--IMAGE CHANGES GO HERE -->
+    <section class = "yellowish">
+        <div class="imageGallery">
+            <!-- Images -->
+            <img src="images/Taco.jpeg" alt="Dish 1" onclick="selectDish('bagnerAndAlexaDesc1', this)" class="images">
+            <img src="images/pancakes.jpeg" alt="Dish 2" onclick="selectDish('bagnerAndAlexaDesc2', this)" class="images">
+            <img src="images/enchiladas.jpeg" alt="Dish 3" onclick="selectDish('bagnerAndAlexaDesc3', this)" class="images">
+            <!-- Descriptions -->
+            <div id="bagnerAndAlexaDesc1" class="dishDescription">
+                <h3>Dish 1 Name</h3>
+                <p>Description of Dish 1. It costs $XX.</p>
+            </div>
+            <div id="bagnerAndAlexaDesc2" class="dishDescription">
+                <h3>Dish 2 Name</h3>
+                <p>Description of Dish 2. It costs $XX.</p>
+            </div>
+            <div id="bagnerAndAlexaDesc3" class="dishDescription">
+                <h3>Dish 3 Name</h3>
+                <p>Description of Dish 3. It costs $XX.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Don-->
+    <section class = "blueish">
+        <div class="imageSection">
+        <h1 class="restName">Don</h1>
+        <img src ="images/Don.jpeg" class="images">
+        </div>
+        <article class="articleSection">
+            <p>LOCATION: </p>
+            <p>HOURS: </p>
+            <p>Specialties: </p>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias perferendis eligendi molestias cum vero fugiat nostrum ullam numquam obcaecati, inventore provident ipsa accusantium omnis iste minus et est, voluptas ipsum.</p>
+            <p>Photo creds: Google Maps by Jordan Burleson</p>
+        </article>
+    </section>
+    <!--IMAGE CHANGES GO HERE -->
+    <section class = "blueish">
+        <div class="imageGallery">
+            <!-- Images for Don -->
+            <img src="images/Don1.jpg" alt="Dish 1 at Don" onclick="selectDish('donDesc1', this)" class="images">
+            <img src="images/Don2.jpg" alt="Dish 2 at Don" onclick="selectDish('donDesc2', this)" class="images">
+            <img src="images/Don3.jpg" alt="Dish 3 at Don" onclick="selectDish('donDesc3', this)" class="images">
+            <!-- Descriptions for Don's Dishes -->
+            <div id="donDesc1" class="dishDescription">
+                <h3>Dish 1 Name</h3>
+                <p>Description of Dish 1. It costs $XX.</p>
+            </div>
+            <div id="donDesc2" class="dishDescription">
+                <h3>Dish 2 Name</h3>
+                <p>Description of Dish 2. It costs $XX.</p>
+            </div>
+            <div id="donDesc3" class="dishDescription">
+                <h3>Dish 3 Name</h3>
+                <p>Description of Dish 3. It costs $XX.</p>
+            </div>
+        </div>
+    </section>
+    <!--Old Town Draught House-->
+    <section class = "yellowish">
+        <div class="imageSection">
+            <h1 class="restName">Old Town Draught House</h1>
+            <img src ="images/OldTown.jpg" class="images">
+            </div>
+        <article class="articleSection">
+            <p>LOCATION: </p>
+            <p>HOURS: </p>
+            <p>Specialties: </p>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias perferendis eligendi molestias cum vero fugiat nostrum ullam numquam obcaecati, inventore provident ipsa accusantium omnis iste minus et est, voluptas ipsum.</p>
+            <p>Photo creds: Google Maps by Old Town Draught House</p>
+        </article>
+    </section>
+
+    <!--IMAGE CHANGES GO HERE -->
+    <section class = "yellowish">
+        <div class="imageGallery">
+            <!-- Images for Old Town Draught House -->
+            <img src="images/OldTown1.jpg" alt="Dish 1 at Old Town Draught House" onclick="selectDish('oldTownDesc1', this)" class="images">
+            <img src="images/OldTown2.jpg" alt="Dish 2 at Old Town Draught House" onclick="selectDish('oldTownDesc2', this)" class="images">
+            <img src="images/OldTown3.jpg" alt="Dish 3 at Old Town Draught House" onclick="selectDish('oldTownDesc3', this)" class="images">
+            <!-- Descriptions for Old Town Draught House's Dishes -->
+            <div id="oldTownDesc1" class="dishDescription">
+                <h3>Dish 1 Name</h3>
+                <p>Description of Dish 1. It costs $XX.</p>
+            </div>
+            <div id="oldTownDesc2" class="dishDescription">
+                <h3>Dish 2 Name</h3>
+                <p>Description of Dish 2. It costs $XX.</p>
+            </div>
+            <div id="oldTownDesc3" class="dishDescription">
+                <h3>Dish 3 Name</h3>
+                <p>Description of Dish 3. It costs $XX.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Korean Style Food place-->
+    <section class = "blueish">
+        <div class="imageSection">
+            <h1 class="restName">Korean Style</h1>
+            <img src ="images/ironmanImage.jpg" class="images">
+            </div>
+        <article class="articleSection">
+            <p>LOCATION: </p>
+            <p>HOURS: </p>
+            <p>Specialties: </p>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias perferendis eligendi molestias cum vero fugiat nostrum ullam numquam obcaecati, inventore provident ipsa accusantium omnis iste minus et est, voluptas ipsum.</p>
+            <p>Photo creds: Lindsey Flores</p>
+        </article>
+    </section>
+    <!--IMAGE CHANGES GO HERE -->
+    <section class = "blueish">
+        <div class="imageGallery">
+            <!-- Images for Korean Style -->
+            <img src="images/KoreanStyle1.jpg" alt="Dish 1 at Korean Style" onclick="selectDish('koreanStyleDesc1', this)" class="images">
+            <img src="images/KoreanStyle2.jpg" alt="Dish 2 at Korean Style" onclick="selectDish('koreanStyleDesc2', this)" class="images">
+            <img src="images/KoreanStyle3.jpg" alt="Dish 3 at Korean Style" onclick="selectDish('koreanStyleDesc3', this)" class="images">
+            <!-- Descriptions for Korean Style's Dishes -->
+            <div id="koreanStyleDesc1" class="dishDescription">
+                <h3>Dish 1 Name</h3>
+                <p>Description of Dish 1. It costs $XX.</p>
+            </div>
+            <div id="koreanStyleDesc2" class="dishDescription">
+                <h3>Dish 2 Name</h3>
+                <p>Description of Dish 2. It costs $XX.</p>
+            </div>
+            <div id="koreanStyleDesc3" class="dishDescription">
+                <h3>Dish 3 Name</h3>
+                <p>Description of Dish 3. It costs $XX.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
