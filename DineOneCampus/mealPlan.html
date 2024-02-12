@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
-
-    </head>
-    <body>
         <title> Meal Plan </title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mealPlan.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="recommendations">
+                <h2>Recommended Dishes</h2>
+                <!-- Example dish -->
+                <div class="dish" data-price="10">
+                    <p>Dish Name at Restaurant - $10</p>
+                    <button onclick="addToMealPlan(this)">Add to Meal Plan</button>
+                </div>
+                <!-- Add more dishes here -->
+            </div>
+            <div class="mealPlan">
+                <h2>Your Meal Plan</h2>
+                <div id="selectedDishes"></div>
+                <p>Total: $<span id="totalAmount">0</span></p>
+            </div>
+        </div>
+        <script src="mealPlan.js"></script>
     </body>
 </html>

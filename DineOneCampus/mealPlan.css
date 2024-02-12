@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommendations, .mealPlan {
+    width: 48%;
+}
+
+.dish {
+    margin-bottom: 10px;
+}
