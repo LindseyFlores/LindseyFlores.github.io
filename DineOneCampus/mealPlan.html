@@ -4,23 +4,77 @@
         <title> Meal Plan </title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Play&family=Press+Start+2P&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="mealPlan.css">
     </head>
     <body>
         <div class="container">
             <div class="recommendations">
-                <h2>Recommended Dishes</h2>
-                <!-- Example dish -->
-                <div class="dish" data-price="10">
-                    <p>Dish Name at Restaurant - $10</p>
+                <h1>Recommended Dishes</h1>
+                <!-- Bagner and Alexa -->
+                <h2>Bagner and Alexa <hr> </h2>
+                <div class="dish" data-price="11.50">
+                    <p> Tacos - $11.50</p>
                     <button onclick="addToMealPlan(this)">Add to Meal Plan</button>
                 </div>
-                <!-- Add more dishes here -->
+                <div class="dish" data-price="10.00">
+                    <p> Pancakes - $7.00</p>
+                    <button onclick="addToMealPlan(this)">Add to Meal Plan</button>
+                </div>
+                <div class="dish" data-price="13.00">
+                    <p> Enchiladas - $13.00</p>
+                    <button onclick="addToMealPlan(this)">Add to Meal Plan</button>
+                </div>
+                <!-- Don -->
+                <h2>Don<hr></h2>
+
+                <div class="dish" data-price="12.95">
+                    <p> Salmon Rice Bowl - $12.95</p>
+                    <button onclick="addToMealPlan(this)">Add to Meal Plan</button>
+                </div>
+                <div class="dish" data-price="5.00">
+                    <p> GreenTea Icecream - $5.00</p>
+                    <button onclick="addToMealPlan(this)">Add to Meal Plan</button>
+                </div>
+                <div class="dish" data-price="11.45">
+                    <p> Curry Chicken Katsu - $11.45</p>
+                    <button onclick="addToMealPlan(this)">Add to Meal Plan</button>
+                </div>
+                <!-- Old Town Draught House -->
+                <h2>Old Town Draught House<hr></h2>
+
+                <div class="dish" data-price="12.00">
+                    <p> Turkey Bacon Melt - 12.00 </p>
+                    <button onclick="addToMealPlan(this)">Add to Meal Plan</button>
+                </div>
+                <div class="dish" data-price="15.00">
+                    <p> BBQ Brisket Fries - 15.00</p>
+                    <button onclick="addToMealPlan(this)">Add to Meal Plan</button>
+                </div>
+                <div class="dish" data-price="13.00">
+                    <p> Philly Cheesestake - 13.00</p>
+                    <button onclick="addToMealPlan(this)">Add to Meal Plan</button>
+                </div>
+                <!-- Korean Style-->
+                <h2>MongeTee<hr></h2>
+
+                <div class="dish" data-price="9.50">
+                    <p> Cheese Foam Mango Pomelo - 9.50</p>
+                    <button onclick="addToMealPlan(this)">Add to Meal Plan</button>
+                </div>
+                <div class="dish" data-price="11.00">
+                    <p> Korean Fried Chicken - $11.00</p>
+                    <button onclick="addToMealPlan(this)">Add to Meal Plan</button>
+                </div>
+                <div class="dish" data-price="10.00">
+                    <p> Oreo Bubble Tea - $10.00</p>
+                    <button onclick="addToMealPlan(this)">Add to Meal Plan</button>
+                </div>
             </div>
             <div class="mealPlan">
-                <h2>Your Meal Plan</h2>
+                <h1>Your Meal Plan</h1>
                 <div id="selectedDishes"></div>
-                <p>Total: $<span id="totalAmount">0</span></p>
+                <p id="totalBox">Total: $<span id="totalAmount">0</span></p>
             </div>
         </div>
         <script src="mealPlan.js"></script>

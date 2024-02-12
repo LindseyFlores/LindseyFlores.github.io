@@ -12,10 +12,6 @@
 <body>
     <nav id="navigationBar">
         <div id="logo"> Dine Near Campus </div>
-        <a href="bagnerAndAlexa.html"><button> B&A </button> </a>
-        <a href="don.html"><button> Don </button></a>
-        <a href="oldTown.html"><button> Old Town</button></a>
-        <a href="koreanStyle.html"><button> Korean </button></a>
         <a href="mealPlan.html"> <button> Meal Plan </button> </a>
     </nav>
 
@@ -36,42 +32,52 @@
             <img src="images/BagnerAndAlexa.jpg" class="images">
         </div>
         <article class="articleSection">
-            <p>LOCATION: </p>
+            <p>LOCATION: 1618 Spring Garden St, Greensboro, NC 27403 </p>
             <p>HOURS: </p>
-            <!--unmarked List-->
-            <p>Specialties: </p>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias perferendis eligendi molestias cum vero
-                fugiat nostrum ullam numquam obcaecati, inventore provident ipsa accusantium omnis iste minus et est,
-                voluptas ipsum.</p>
+            <ul>
+                <li>Monday: 7AM-3PM </li>
+                <li>Tuesday: 7AM-3PM</li>
+                <li>Wednesday: 7AM-3PM</li>
+                <li>Thursday: 7AM-8PM</li>
+                <li>Friday: 7AM-8PM</li>
+                <li>Saturday: 7AM-3PM</li>
+                <li>Sunday: 7AM-3PM</li>
+            </ul>
+            <p>Specialties: BREAKFAST AND LUNCH </p>
+            <p>
+                This is one of my favorite spots to eat at in all of Greensboro. Not only is the food always perfect,
+                but the staff is absolutely amazing.
+                This is about 0.7 miles from the Petty Building in UNCG, so if you are in the area, you can get there in
+                about a 13 minute walk.
+            </p>
             <p>Photo creds: Google Maps by Bagner And Alexa</p>
         </article>
     </section>
 
     <!--IMAGE CHANGES-->
     <section class="yellowish">
-            <div class="imageGallery">
-                <!-- Images -->
-                <img src="images/Taco.jpeg" alt="Dish 1" onclick="selectDish('bagnerAndAlexaDesc1', this)"
-                    class="images">
-                <img src="images/pancakes.jpeg" alt="Dish 2" onclick="selectDish('bagnerAndAlexaDesc2', this)"
-                    class="images">
-                <img src="images/enchiladas.jpeg" alt="Dish 3" onclick="selectDish('bagnerAndAlexaDesc3', this)"
-                    class="images">
-                <!-- Descriptions -->
-                <div id="bagnerAndAlexaDesc1" class="dishDescription">
-                    <h3>Dish 1 Name</h3>
-                    <p>Description of Dish 1. It costs $XX.</p>
-                </div>
-                <div id="bagnerAndAlexaDesc2" class="dishDescription">
-                    <h3>Dish 2 Name</h3>
-                    <p>Description of Dish 2. It costs $XX.</p>
-                </div>
-                <!--GoogleMaps user: -->
-                <div id="bagnerAndAlexaDesc3" class="dishDescription">
-                    <h3>Dish 3 Name</h3>
-                    <p>Description of Dish 3. It costs $XX.</p>
-                </div>
+        <div class="imageGallery">
+            <!-- Images -->
+            <img src="images/Taco.jpeg" alt="Dish 1" onclick="selectDish('bagnerAndAlexaDesc1', this)" class="images">
+            <img src="images/pancakes.jpeg" alt="Dish 2" onclick="selectDish('bagnerAndAlexaDesc2', this)"
+                class="images">
+            <img src="images/enchiladas.jpeg" alt="Dish 3" onclick="selectDish('bagnerAndAlexaDesc3', this)"
+                class="images">
+            <!-- Descriptions -->
+            <div id="bagnerAndAlexaDesc1" class="dishDescription">
+                <h3>Tacos al Pastor</h3>
+                <p>Description of Dish 1. It costs $11.50.</p>
             </div>
+            <div id="bagnerAndAlexaDesc2" class="dishDescription">
+                <h3>Dish 2 Name</h3>
+                <p>Description of Dish 2. It costs $7.00.</p>
+            </div>
+            <!--GoogleMaps user: -->
+            <div id="bagnerAndAlexaDesc3" class="dishDescription">
+                <h3>Dish 3 Name</h3>
+                <p>Description of Dish 3. It costs $13.00.</p>
+            </div>
+        </div>
     </section>
 
     <!--Don-->
@@ -81,12 +87,22 @@
             <img src="images/Don.jpeg" class="images">
         </div>
         <article class="articleSection">
-            <p>LOCATION: </p>
+            <p>LOCATION: 423 Tate St, Greensboro, NC 27403 </p>
             <p>HOURS: </p>
-            <p>Specialties: </p>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias perferendis eligendi molestias cum vero
-                fugiat nostrum ullam numquam obcaecati, inventore provident ipsa accusantium omnis iste minus et est,
-                voluptas ipsum.</p>
+            <ul>
+                <li>Monday: 11AM-3:30PM/5:00PM-10PM </li>
+                <li>Tuesday: 11AM-3:30PM/5:00PM-10PM </li>
+                <li>Wednesday: 11AM-3:30PM/5:00PM-10PM </li>
+                <li>Thursday: 11AM-3:30PM/5:00PM-10PM</li>
+                <li>Friday: 11AM-3:30PM/5:00PM-10PM</li>
+                <li>Saturday: 12:00PM-10:00PM</li>
+                <li>Sunday: CLOSED </li>
+            </ul>
+            <p>Specialties: RICE BOWLS </p>
+            <p>
+                Don is a great place to grab some good lunch on Tate street between classes. They have excellent service
+                and excellent rice bowls!
+            </p>
             <p>Photo creds: Google Maps by Jordan Burleson</p>
         </article>
     </section>
@@ -99,18 +115,18 @@
             <img src="images/curryKatsu.jpeg" alt="Dish 3 at Don" onclick="selectDish('donDesc3', this)" class="images">
             <!--GoogleMaps user: A Campbell-->
             <div id="donDesc1" class="dishDescription">
-                <h3>Dish 1 Name</h3>
-                <p>Description of Dish 1. It costs $XX.</p>
+                <h3> Salmon Terayaki Bowl </h3>
+                <p>Description of Dish 1. It costs $12.95.</p>
             </div>
             <!--Don Website-->
             <div id="donDesc2" class="dishDescription">
-                <h3>Dish 2 Name</h3>
-                <p>Description of Dish 2. It costs $XX.</p>
+                <h3>Green Tea Icecream</h3>
+                <p>Description of Dish 2. It costs $5.00.</p>
             </div>
             <!--Don website-->
             <div id="donDesc3" class="dishDescription">
-                <h3>Dish 3 Name</h3>
-                <p>Description of Dish 3. It costs $XX.</p>
+                <h3>Curry Chicken Katsu</h3>
+                <p>Description of Dish 3. It costs $11.45.</p>
             </div>
         </div>
     </section>
@@ -121,12 +137,20 @@
             <img src="images/OldTown.jpg" class="images">
         </div>
         <article class="articleSection">
-            <p>LOCATION: </p>
+            <p>LOCATION: 1205 Spring Garden St, Greensboro, NC 27403</p>
             <p>HOURS: </p>
-            <p>Specialties: </p>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias perferendis eligendi molestias cum vero
-                fugiat nostrum ullam numquam obcaecati, inventore provident ipsa accusantium omnis iste minus et est,
-                voluptas ipsum.</p>
+            <ul>
+                <li>Monday: 11AM-11PM </li>
+                <li>Tuesday: 11AM-11PM</li>
+                <li>Wednesday: 11AM-11PM</li>
+                <li>Thursday: 11AM-11PM</li>
+                <li>Friday: 11AM-11PM</li>
+                <li>Saturday: 11AM-11PM</li>
+                <li>Sunday: 11AM-11PM</li>
+            </ul>
+            <p>Specialties: COVERED FRIES </p>
+            <p> Old Town Draught House is another great spot to grab lunch or dinner. They have the best turkey melt I
+                have ever tasted! If youre a sport person, they always seem to have games on the tv's to enjoy! </p>
             <p>Photo creds: Google Maps by Old Town Draught House</p>
         </article>
     </section>
@@ -139,22 +163,22 @@
                 onclick="selectDish('oldTownDesc1', this)" class="images">
             <img src="images/bbqfries.jpg" alt="Dish 2 at Old Town Draught House"
                 onclick="selectDish('oldTownDesc2', this)" class="images">
-            <img src="images/sub.jpg" alt="Dish 3 at Old Town Draught House"
-                onclick="selectDish('oldTownDesc3', this)" class="images">
+            <img src="images/sub.jpg" alt="Dish 3 at Old Town Draught House" onclick="selectDish('oldTownDesc3', this)"
+                class="images">
             <!-- Descriptions for Old Town Draught House's Dishes -->
             <!--Google Map user: Terrance Brown-->
             <div id="oldTownDesc1" class="dishDescription">
-                <h3>Dish 1 Name</h3>
-                <p>Description of Dish 1. It costs $XX.</p>
+                <h3> Turkey Melt </h3>
+                <p>Description of Dish 1. It costs $12.</p>
             </div>
             <!--Google Map user: Terrance Brown-->
             <div id="oldTownDesc2" class="dishDescription">
-                <h3>Dish 2 Name</h3>
-                <p>Description of Dish 2. It costs $XX.</p>
+                <h3>BBQ Brisket Fries </h3>
+                <p>Description of Dish 2. It costs $15.</p>
             </div>
             <div id="oldTownDesc3" class="dishDescription">
-                <h3>Dish 3 Name</h3>
-                <p>Description of Dish 3. It costs $XX.</p>
+                <h3> Philly Cheesesteak </h3>
+                <p>Description of Dish 3. It costs $13.</p>
             </div>
         </div>
     </section>
@@ -163,41 +187,52 @@
     <section class="blueish">
         <div class="imageSection">
             <h1 class="restName">Korean Style</h1>
-            <img src="images/ironmanImage.jpg" class="images">
+            <img src="images/MogeTee.jpg" class="images">
         </div>
         <article class="articleSection">
-            <p>LOCATION: </p>
+            <p>LOCATION: 948 Walker Ave, Greensboro, NC 27403 </p>
             <p>HOURS: </p>
-            <p>Specialties: </p>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias perferendis eligendi molestias cum vero
-                fugiat nostrum ullam numquam obcaecati, inventore provident ipsa accusantium omnis iste minus et est,
-                voluptas ipsum.</p>
-            <p>Photo creds: Lindsey Flores</p>
+            <ul>
+                <li>Monday: 12PM-9PM </li>
+                <li>Tuesday: 12PM-9PM </li>
+                <li>Wednesday: 12PM-9PM </li>
+                <li>Thursday: 12PM-9PM </li>
+                <li>Friday: 12PM-9PM </li>
+                <li>Saturday: 12PM-9PM </li>
+                <li>Sunday: 12PM-9PM </li>
+            </ul>
+            <p>Specialties: KOREAN STYLE FRIED CHICKEN </p>
+            <p> I first went to MongeTee for their boba tea, which is more on the pricey side but definitely have some
+                great variety of teas.
+                They recently started selling their Korean style fried chicken, which is a great way to get a good meal
+                without having to go to a different place.
+            </p>
+            <p>Photo creds: MongeTee</p>
         </article>
     </section>
     <!--IMAGE CHANGES GO HERE -->
     <section class="blueish">
         <div class="imageGallery">
-            
+
             <img src="images/cheeseMango.jpeg" alt="Dish 1 at Korean Style"
                 onclick="selectDish('koreanStyleDesc1', this)" class="images">
             <img src="images/koreanStyle.jpeg" alt="Dish 2 at Korean Style"
                 onclick="selectDish('koreanStyleDesc2', this)" class="images">
-            <img src="images/milktea.jpeg" alt="Dish 3 at Korean Style"
-                onclick="selectDish('koreanStyleDesc3', this)" class="images">
+            <img src="images/milktea.jpeg" alt="Dish 3 at Korean Style" onclick="selectDish('koreanStyleDesc3', this)"
+                class="images">
             <!-- Cheese Foam Mango Pomelo from MongeTee-->
             <div id="koreanStyleDesc1" class="dishDescription">
-                <h3>Dish 1 Name</h3>
-                <p>Description of Dish 1. It costs $XX.</p>
+                <h3> Cheese Mango Boba Tea </h3>
+                <p>Description of Dish 1. It costs $9.50.</p>
             </div>
             <!-- Korean chicken houstonsgotspice.com -->
             <div id="koreanStyleDesc2" class="dishDescription">
-                <h3>Dish 2 Name</h3>
-                <p>Description of Dish 2. It costs $XX.</p>
+                <h3> Korean Style Fried Chicken </h3>
+                <p>Description of Dish 2. It costs $11.00.</p>
             </div>
             <div id="koreanStyleDesc3" class="dishDescription">
-                <h3>Dish 3 Name</h3>
-                <p>Description of Dish 3. It costs $XX.</p>
+                <h3> Orea Milk Tea </h3>
+                <p> Description of Dish 3. It costs $10.00.</p>
             </div>
         </div>
     </section>

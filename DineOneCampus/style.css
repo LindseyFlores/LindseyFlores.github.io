@@ -42,7 +42,7 @@ button {
 
 .blueish {
     width: 100%;
-    height: 500px;
+    height: auto;
     background-color: #304D86;
     display: flex;
     justify-content: space-between;
@@ -52,7 +52,7 @@ button {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 20px;
+    margin-left: 20px;
 }
 
 .restName {
@@ -64,7 +64,6 @@ button {
 .images {
     width: 500px;
     height: 400px;
-    margin: 10px;
 }
 
 .articleSection {
@@ -72,34 +71,39 @@ button {
     align-self: center;
     width: 400px;
     height: 400px;
-    margin: 100px;
     padding: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
     background-color: antiquewhite;
 }
-.imageGallery{
-    border-style: solid;
+
+.imageGallery {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 70px;
 }
+
 .images {
     cursor: pointer;
     width: 400px;
-    height:auto;
+    height: auto;
 }
 
 .images.active {
     transform: scale(1.5);
-    /* Enlarge the active image */
     transition: transform 0.3s ease;
 }
 
 .dishDescription {
     display: none;
     margin-top: 100px;
-    /* Hide descriptions initially */
+    flex-wrap: wrap;
+    border-style: solid;
+    padding: 10px;
 }
 
 .dishDescription.active {
     display: block;
-    /* Show active description */
 }
