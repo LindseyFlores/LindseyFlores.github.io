@@ -28,5 +28,5 @@ function updateTotal() {
     start += parseFloat(priceElement.textContent);
   });
   // Updated start amount
-  document.getElementById("totalAmount").textContent = start;
+  document.getElementById("totalAmount").textContent = start.toFixed(2);
 }
