@@ -1,3 +1,4 @@
+// Adds dish to meal plan
 function addToMealPlan(buttonElement) {
   const dishName = buttonElement.previousElementSibling.textContent;
   const price = buttonElement.parentElement.getAttribute("data-price");
@@ -10,18 +11,21 @@ function addToMealPlan(buttonElement) {
   updateTotal();
 }
 
+// Removes dish from meal plan
 function removeFromMealPlan(buttonElement, price) {
   const dishElement = buttonElement.parentElement;
   dishElement.remove();
   updateTotal();
 }
 
+// Adds another order of the dish
 function addAnotherOrder(buttonElement, price) {
   const newDishElement = buttonElement.parentElement.cloneNode(true);
   document.getElementById("selectedDishes").appendChild(newDishElement);
   updateTotal();
 }
 
+// Updates total price
 function updateTotal() {
   const prices = document.querySelectorAll("#selectedDishes .price");
   let total = 0;
