@@ -19,12 +19,14 @@ function removeFromMealPlan(buttonElement, price) {
   updateTotal();
 }
 
-// Updates total price
 function updateTotal() {
+  // Get all prices and obvisiouly the starting price = 0
   const prices = document.querySelectorAll("#selectedDishes .price");
-  let total = 0;
+  let start = 0;
+  // Loop through all prices and add them together
   prices.forEach((priceElement) => {
-    total += parseFloat(priceElement.textContent);
+    start += parseFloat(priceElement.textContent);
   });
-  document.getElementById("totalAmount").textContent = total.toFixed(2);
+  // Updated start amount
+  document.getElementById("totalAmount").textContent = start;
 }
