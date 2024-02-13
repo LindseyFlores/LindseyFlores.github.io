@@ -4,8 +4,9 @@ function addToMealPlan(buttonElement) {
   const price = buttonElement.parentElement.getAttribute("data-price");
   const selectedDishes = document.getElementById("selectedDishes");
 
+  //Created an entry (button) in HTML to remove the dish from the meal plan
   const entry = document.createElement("div");
-  entry.innerHTML = `${dishName} <button onclick="removeFromMealPlan(this, ${price})">Remove</button> <button onclick="addAnotherOrder(this, ${price})">Add Another Order</button><span class="price" hidden>${price}</span>`;
+  entry.innerHTML = `${dishName} <button onclick="removeFromMealPlan(this, ${price})">Remove</button> <span class="price" hidden>${price}</span>`;
 
   selectedDishes.appendChild(entry);
   updateTotal();
@@ -15,13 +16,6 @@ function addToMealPlan(buttonElement) {
 function removeFromMealPlan(buttonElement, price) {
   const dishElement = buttonElement.parentElement;
   dishElement.remove();
-  updateTotal();
-}
-
-// Adds another order of the dish
-function addAnotherOrder(buttonElement, price) {
-  const newDishElement = buttonElement.parentElement.cloneNode(true);
-  document.getElementById("selectedDishes").appendChild(newDishElement);
   updateTotal();
 }
 
