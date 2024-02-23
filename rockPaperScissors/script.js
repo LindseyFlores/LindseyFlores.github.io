@@ -14,7 +14,7 @@ function play(playerChoice) {
     var choices = ["rock", "paper", "scissors"];
     // make the computer choice select randomly between the three choices
     var computerChoice = choices[Math.floor(Math.random() * 3)];
-
+    
     // we want to have a random shuffle for the 3 chouces being made by computer.
     let swapImage = document.getElementById("swap");
     let count = 0;
@@ -31,7 +31,7 @@ function play(playerChoice) {
             let result = checkWinner(playerChoice, computerChoice);
             document.getElementById("result").innerHTML = `Computer chose ${computerChoice}. ${result}`;
         }
-    }, 500);
+    }, 500); 
     //I set the interval to 500 miliseconds because this SETINTERVAL function expects atleast 2 arguements, or the shuffling of 
     //the images wont display. to my knowledge, the delay needs to be specified or JS wont know how often the functions needs to be executed. -Lindsey
 }
@@ -72,7 +72,7 @@ function resetGame() {
 
     // Reset computer image to question mark
     document.getElementById("swap").src = "./images/question-mark.PNG";
-
+    
     // Clear the game result text
     document.getElementById("result").innerHTML = "";
 
