@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <section id="player">
+        <img onclick="addBorders(this); play('rock')" src="./images/rock.PNG" width="300" height="400" />
+        <img onclick="addBorders(this); play('paper')" src="./images/paper.PNG" width="300" height="400" />
+        <img onclick="addBorders(this); play('scissors')" src="./images/scissors.PNG" width="300" height="400" />
+    </section>
+    <section id="computer">
+        <img id="swap" src="./images/question-mark.PNG" width="300" height="400" />
+    </section>
+    <section id="outcome">
+        <div id="text">
+            <p id="result"></p>
+        </div>
+        <button>Play again!</button>
+    </section>
+
+    <section id="scoreboard">
+        <p id="wins">Wins: 0</p>
+        <p id="losses">Losses: 0</p>
+        <p id="ties">Ties: 0</p>
+    </section>
+    <button id="resetButton">Reset Game</button>
+
+</body>
+
+</html>
