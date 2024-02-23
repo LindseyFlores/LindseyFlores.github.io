@@ -35,7 +35,7 @@ function play(playerChoice) {
     //I set the interval to 500 miliseconds because this SETINTERVAL function expects atleast 2 arguements, or the shuffling of 
     //the images wont display. to my knowledge, the delay needs to be specified or JS wont know how often the functions needs to be executed. -Lindsey
 }
-//I'm updating this checkWinner function to hopefully modify modify scores - Lindsey
+// updating this checkWinner function to hopefully modify scores 
 function checkWinner(playerChoice, computerChoice) {
     if (playerChoice === computerChoice) {
         ties++;
