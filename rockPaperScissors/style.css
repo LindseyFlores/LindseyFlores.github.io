@@ -45,3 +45,11 @@ body {
       font-size: 14pt;
     color: black;
   }
+  #scoreboard {
+    height: 10%;
+    width: 70%;
+    font-size: 14pt;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+  }
