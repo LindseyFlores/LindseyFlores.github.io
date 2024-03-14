@@ -30,7 +30,7 @@ function fetchRepositories() {
 
 //Displaying the found repository's details in HTML container
 function displayRepositories(repos) {
-    repoContainer.innerHTML = ''; // Clear previous content
+    repoContainer.innerHTML = ''; // Clear previous information
     repos.forEach(repo => {
         const repoElement = document.createElement('div');
         repoElement.className = 'repo';
