@@ -5,7 +5,7 @@ body{
 #repoContainer {
     margin: 20px;
     display: flex;
-    flex-direction: row; flex-wrap: wrap; 
+    flex-direction: row; flex-wrap: wrap; gap:20px;
 }
 
 .repo {

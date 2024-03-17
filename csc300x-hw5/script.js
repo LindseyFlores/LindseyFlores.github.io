@@ -46,6 +46,7 @@ async function displayRepositories(repos, username) {
         }
 
         repoElement.innerHTML = `
+            <div></div>
             <div class="repoName">
                 <h2><a href="${repo.html_url}" target="_blank">${repo.name}</a></h2>
             </div>
