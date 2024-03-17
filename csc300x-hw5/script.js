@@ -26,8 +26,7 @@ async function fetchRepositories() {
     }
 }
 
-// Displaying the repository details (repo; name, description, creation date, update date, number of commits, languages, watchers) we got in an HTML container,
-// Async function to fetch commit count for each repository
+// Goal: Display repository details (repo; name, description, creation date, update date, number of commits, languages, watchers) we got in an HTML container,
 async function displayRepositories(repos, username) {
     repoContainer.innerHTML = ''; // Clear previous content
     for (const repo of repos) { //js for of loop to iterate through each repo
