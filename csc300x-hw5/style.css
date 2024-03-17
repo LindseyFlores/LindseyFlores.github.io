@@ -1,0 +1,37 @@
+body{
+    background-color: #373737;
+}
+
+#repoContainer {
+    margin: 20px;
+    display: flex;
+    flex-direction: row; flex-wrap: wrap; 
+}
+
+.repo {
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.repoName h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.repoName h2 a {
+    text-decoration: none;
+    color: #0366d6;
+}
+
+.repoDescription p {
+    margin-top: 10px;
+}
+
+.repoFoot {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column; justify-content: space-between;
+    font-size: 14px;
+}
