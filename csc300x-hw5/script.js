@@ -45,10 +45,13 @@ async function displayRepositories(repos, username) {
         }
 
         repoElement.innerHTML = `
-            <div></div>
+            <div id = "image">
+            <img class="githubLogo",src="images/thegithublogo.png" >
             <div class="repoName">
                 <h2><a href="${repo.html_url}" target="_blank">${repo.name}</a></h2>
             </div>
+            </div>
+            
             <div class="repoDescription">
                 <p>${repo.description || 'No description available'}</p>
             </div>
@@ -56,7 +59,7 @@ async function displayRepositories(repos, username) {
                 <span>Created on: <b>${new Date(repo.created_at).toLocaleDateString()}</b></span>
                 <span>Updated on: <b>${new Date(repo.updated_at).toLocaleDateString()}</b></span>
                 <span>Commits: <b>${commitCount}</b></span>
-                <span>Languages: <b>${repo.language || 'Not specified'}</b></span>
+                <span>Languages: <b>${repo.language ||  'Not specified'}</b></span>
                 <span>Watchers: <b>${repo.watchers_count}</b></span>
             </div>
         `;
