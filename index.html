@@ -21,43 +21,46 @@
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-mainbg">
         <div class="container-fluid">
-            <!-- Logo / Brand -->
-            <a class="navbar-brand navbar-logo" href="#">Lindsey</a>
-
+            <!-- Logo / Brand (Links to Homepage) -->
+            <a class="navbar-brand navbar-logo" href="index.html">Lindsey</a>
+    
             <!-- Toggler button for mobile -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <i class="fas fa-bars text-white"></i>
             </button>
-
+    
             <!-- Navbar Items (Right-Aligned) -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto"> <!-- Push items to the right -->
+                <ul class="navbar-nav ms-auto">
                     <div class="hori-selector">
                         <div class="left"></div>
                         <div class="right"></div>
                     </div>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0);"><i class="fas fa-palette"></i> Blog</a>
+                        <a class="nav-link" href="/blog.html"><i class="fas fa-palette"></i> Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0);"><i class="far fa-clone"></i> Project</a>
+                        <a class="nav-link" href="/project.html"><i class="far fa-clone"></i> Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0);"><i class="far fa-address-book"></i> Contact</a>
+                        <a class="nav-link" href="/contact.html"><i class="far fa-address-book"></i> Contact</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
+    
+    <div class="actual-content">
     <div class="welcome-header">
-        <h1 class="text-center mt-5">Hello, world! I’m Lindsey – welcome to a peek inside my brain </h1>
+        <h1 class="welcome-text">Hello, world! I’m Lindsey – welcome to a peek inside my brain </h1>
     </div>
 
     <div class="container-introduction">
-    <div class="intro-header">
+
+    <div class="left-side">
+        <div class="introduction"> 
         <p>
             Here, you’ll find a world of designs, creations, and tinkering fueled by curiosity and a love for tech. I
             dive headfirst into the world of technology—coding, building, and fixing along the way.
@@ -66,13 +69,29 @@
             From debugging software to breathing life into hardware, I’m pretty much passionate about every facet of
             tech. Check out my blog for updates on the latest projects I’ve been crafting!
         </p>
+        </div>
+        
+        <div class="background-info">
+            <h2 class="some-background"> Some Background </h2> 
+
+            <p id="background-text">
+                As a computer science student at the University of North Carolina at Greensboro, I’ve been able to appreciate the art of algorithms, data structures, and computational principles. 
+                My coursework and hands-on projects have given me the foundation to tackle challenges with creative solutions.
+            </p>
+
+            <p id="background-text">
+                Working in an IT department has amplified my love for hardware repairs and technical problem-solving.
+                There's nothing more satisfying than restoring a device and seeing it spring back to life.
+            </p>
+        </div>
     </div>
 
-    <div class="image-header">
-        <img src="images/tech.jpg" alt="tech" class="img-fluid">
-    </div>
+    <div class="right-side">
+        <img src="/assets/imageOne.jpeg" alt="hello" class="img-fluid">
     </div>
 
+    </div>
+</div>
 </body>
 
 </html>

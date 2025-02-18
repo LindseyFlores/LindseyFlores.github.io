@@ -14,20 +14,56 @@ body{
 i {
 	margin-right: 10px;
 }
+/*----------Homepage------------*/
+.actual-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 .welcome-header{
 	font-family: "Bebas Neue", serif;
   	font-weight: 400;
 	font-style: normal;
 	color: white;
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
-.intro-header{
+.container-introduction{
+	display: flex;
+	justify-content: center;
+	margin-left:300px;
+
+}
+.some-background{
+	font-family: "Bebas Neue", serif;
+  	font-weight: 400;
+	font-style: normal;
+	color: white;
+	display: flex;
+	justify-content: center;
+	background-color: #A35228;
+	border-radius: 20px;
+	margin-top: 40px;
+}
+#background-text{
 	font-family: "Ubuntu", serif;
   	font-weight: 400;
 	font-style: normal;		
 	color: white;
 }
-.container-introduction{
-	padding: 100px 0px;
+.introduction{
+	font-family: "Ubuntu", serif;
+  	font-weight: 400;
+	font-style: normal;		
+	color: white;
+}
+img{
+	width: 40%;
+	margin-left:100px;
+	border-radius: 20px;
 }
 /*
 font-family: "Bebas Neue", serif;
@@ -36,12 +72,15 @@ font-style: normal;
 */
 
 /*----------bootstrap-navbar-css------------*/
-.navbar-logo{
-	font-family: "Bebas Neue", serif;
-  	font-weight: 400;
-	padding: 15px;
-	color: #0000;
+.navbar-logo {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    padding: 15px;
+    color: black !important; /* Ensure the text is visible */
+    font-size: 20px;
+    text-decoration: none; /* Remove any underline effect */
 }
+
 
 .navbar-mainbg{
 	background-color: #A35228;
