@@ -239,3 +239,59 @@ font-style: normal;
 		left: -25px;
 	}
 }
+/*----------blog.html------------*/
+/* Blog Page Styling */
+#blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Blog Post Card */
+.card {
+	display: flex;
+	flex-direction: row;
+	padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Blog Post Image */
+.card img {
+    width: 100%;
+	width: 550px; /* Adjust image width */
+    height: 500px; /* Adjust image height */
+	margin-left: -5px;
+    object-fit: cover; /* Crop image to fit */
+}
+
+.card-body{
+	margin-left: 40px;
+}
+
+/* Blog Post Title */
+.card-title {
+	font-family: "Bebas Neue", serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Blog Post Description */
+.card-text {
+	font-family: "Ubuntu", serif;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Date Styling */
+.card-text small {
+    font-size: 0.85rem;
+    color: #888;
+}
