@@ -9,7 +9,9 @@ background-attachment: fixed;
 */
 #home{
 background-color: #353839;
-background-image: url("/assets/images/faces");
+background-image: url("/assets/images/faces.jpeg");
+background-size: cover;
+background-attachment: fixed;
 }
 /*----------General------------*/
 body{
