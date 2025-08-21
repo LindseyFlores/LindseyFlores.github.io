@@ -8,10 +8,8 @@ background-size: cover;
 background-attachment: fixed;
 */
 #home{
-/*background-color: #353839;*/
-background-image: url("/assets/images/faces.jpeg");
-background-size: cover;
-background-attachment: fixed;
+background-color: #353839;
+
 }
 /*----------General------------*/
 body{
