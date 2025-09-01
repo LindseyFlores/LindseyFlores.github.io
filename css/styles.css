@@ -7,10 +7,13 @@ background-image: url("/assets/images/woodsWalkway.JPEG");
 background-size: cover;
 background-attachment: fixed;
 */
+
+/*
 #home{
 background-color: #353839;
-
 }
+*/
+
 /*----------General------------*/
 body{
 	font-family: "Ubuntu", serif;
@@ -22,68 +25,37 @@ body{
 	margin: 0;
 	padding: 0;
 }
-i {
-	margin-right: 10px;
-}
-/*----------Homepage------------*/
+
+/*------------------------ Homepage ----------------------------------*/
 .actual-content {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
-.welcome-header{
-	font-family: "Bebas Neue", serif;
-  	font-weight: 400;
-	font-style: normal;
-	background-color: #353839;
-	color: white;
+/*------------------------ Main Content -----------------------------------*/
+#main-content{
 	display: flex;
 	justify-content: center;
-	margin-top: 40px;
-	margin-bottom: 40px;
+	background-image: url("/assets/images/faces.jpeg");
+    background-size: cover;
+	background-attachment: fixed;
 }
-.container-introduction{
-	display: flex;
-	justify-content: center;
-	margin-left:300px;
+.first-image{
+border: 10px;
+border-style: solid;
+display: flex;
+justify-content: center;
+
 
 }
-.some-background{
-	font-family: "Bebas Neue", serif;
-  	font-weight: 400;
-	font-style: normal;
-	color: white;
-	display: flex;
-	justify-content: center;
-	background-color: #A35228;
-	border-radius: 20px;
-	margin-top: 40px;
+.viet-cof{
+	width:60%;
+	rotate: 90deg;
 }
-#background-text{
-	font-family: "Ubuntu", serif;
-  	font-weight: 400;
-	font-style: normal;		
-	color: white;
-}
-.introduction{
-	font-family: "Ubuntu", serif;
-  	font-weight: 400;
-	font-style: normal;		
-	color: white;
-}
-img{
-	width: 40%;
-	margin-left:100px;
-	border-radius: 20px;
-}
-/*
-font-family: "Bebas Neue", serif;
-font-weight: 400;
-font-style: normal;
-*/
 
-/*----------bootstrap-navbar-css------------*/
+
+/*------------------------------ bootstrap-navbar-css --------------------------------*/
 .navbar-logo {
     font-family: "Bebas Neue", serif;
     font-weight: 400;
@@ -119,7 +91,7 @@ font-style: normal;
 	float: left;
 }
 #navbarSupportedContent ul li a{
-	color: rgba(255,255,255,0.5);
+	color:black;
     text-decoration: none;
     font-size: 15px;
     display: block;
@@ -130,7 +102,7 @@ font-style: normal;
 }
 
 #navbarSupportedContent>ul>li.active>a{
-	color: #A35228;
+	color: #353839;
 	background-color: transparent;
 	transition: all 0.7s;
 }
@@ -159,7 +131,7 @@ font-style: normal;
 	left: 20px;
 	transition-duration:0.6s;
 	transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-	background-color: #353839;
+	background-color: #353839; /*color for the tab that follows the curser*/
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 	margin-top: 10px;
@@ -167,17 +139,19 @@ font-style: normal;
 .hori-selector .right,
 .hori-selector .left{
 	position: absolute;
-	width: 25px;
-	height: 25px;
+	/*width: 10px;
+	height: 25px;*/
 	background-color: #353839;
 	bottom: 10px;
 }
+/*
 .hori-selector .right{
 	right: -25px;
 }
 .hori-selector .left{
 	left: -25px;
 }
+
 .hori-selector .right:before,
 .hori-selector .left:before{
 	content: '';
@@ -185,7 +159,7 @@ font-style: normal;
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #A35228;
+    background-color: blue;
 }
 .hori-selector .right:before{
 	bottom: 0;
@@ -195,7 +169,8 @@ font-style: normal;
 	bottom: 0;
     left: -25px;
 }
-
+*/
+/*----------------------- RESPONSIVE CSS ----------------------------*/
 
 @media(min-width: 992px){
 	.navbar-expand-custom {
