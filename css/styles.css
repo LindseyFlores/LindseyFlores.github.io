@@ -37,21 +37,11 @@ body{
 #main-content{
 	display: flex;
 	justify-content: center;
-	background-image: url("/assets/images/faces.jpeg");
-    background-size: cover;
-	background-attachment: fixed;
+    
 }
-.first-image{
-border: 10px;
-border-style: solid;
-display: flex;
-justify-content: center;
 
-
-}
 .viet-cof{
-	width:60%;
-	rotate: 90deg;
+	width:100%;
 }
 
 
