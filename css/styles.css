@@ -360,28 +360,47 @@ body{
 }
 
  /***************************CONTACT****************************************/
- #contact-body{
-	width: 100%;
-	height: 100vh;
-	background-color: #E37383;
+ #organize-boxes{
+	display: flex;
+    flex-direction: row;
  }
- #contact-body{
+ .contact-body{
 	width: 100%;
 	height: 100vh;
-	background-color: #984D58;
+	background-color: #93434F;
  }
 .contact-form{
 	background-color: #56170D;
 	color: white;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
 	padding: 40px;
 	border-radius: 10px;
-	margin-left:100px;
+	margin-left:300px;
 	margin-top: 100px;
 	padding-right: 30%;
 	padding-bottom: 300px;
-	width: 70%;
-
+	width: 80%;
+}
+#nth{
+	background-color: aliceblue;
+	border-radius: 10px 0px 0px 10px;
+	padding: 10px;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+.greeting{
+	background-color: #91795B;
+	border-radius: 20px 0px 0px 20px;
+	max-height: 500px;
+	max-width: 500px;
+	margin-left: 0%;
+	margin-top: 140px;
+}
+#nth-bio{
+	background-color: aliceblue;
+	margin-left: 20px;
+	margin-top: 50px;
+	padding:10px;
+	border-radius: 10px 0px 0px 10px;
 }
