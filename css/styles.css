@@ -369,6 +369,15 @@ body{
 	height: 100vh;
 	background-color: #93434F;
  }
+ /*
+ #GIT{
+	background-color: #fff9e3;
+	color: black;
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+ }
+	*/
 .contact-form{
 	background-color: #56170D;
 	color: white;
@@ -378,29 +387,69 @@ body{
 	border-radius: 10px;
 	margin-left:300px;
 	margin-top: 100px;
-	padding-right: 30%;
-	padding-bottom: 300px;
+	padding-right: 20%;
+	padding-top: 100px;
+	padding-left: 5%;
+	padding-bottom: 200px;
 	width: 80%;
 }
 #nth{
-	background-color: aliceblue;
-	border-radius: 10px 0px 0px 10px;
+	background-color: #fff9e3;
+	font-family: "Bebas Neue", serif;
+	border-radius: 10px ;
 	padding: 10px;
-	margin-top: 50px;
+	margin-top: 30px;
 	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
 }
 .greeting{
 	background-color: #91795B;
-	border-radius: 20px 0px 0px 20px;
+	border-radius: 20px;
 	max-height: 500px;
 	max-width: 500px;
 	margin-left: 0%;
 	margin-top: 140px;
+	margin-right: 60px;
+	padding: 10px;
+	padding-bottom: 50px;
 }
-#nth-bio{
-	background-color: aliceblue;
+.namemailmess{
+	background-color: #fff9e3;
+	color: black;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 20px;
+}
+#form-button{
+	background-color: #E37383;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 20px;
+	font-family: "Bebas Neue", serif;
+  	font-weight: 400;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+#form-button:hover{
+	background-color: #E37383;
+	box-shadow: 0 12px 16px 0 pink;
+}
+
+.nth-bio{
+	background-color: #fff9e3;
+	font-family: "Ubuntu", serif;
 	margin-left: 20px;
 	margin-top: 50px;
-	padding:10px;
-	border-radius: 10px 0px 0px 10px;
+	padding:15px;
+	border-radius: 10px ;
+	margin-right: 20px;
+}
+p.reachout{
+	margin-top: 5%;
+	display: flex;
+	text-align: center;
+	font-weight: bold;
 }
